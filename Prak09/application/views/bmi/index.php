@@ -25,7 +25,7 @@
                 <tr>
                     <td><?=$num+1?></td>
                     <td><?=$bmi->tanggal?></td>
-                    <td><?=$list_pasien[$num]->kode?></td> <!---diharuskan menggunakan indexing karena $list_pasien ini array dan kita ingin mencetak isinya-->
+                    <td><?=$list_pasien[$num]->kode?></td>
                     <td><?=$list_pasien[$num]->nama?></td>
                     <td><?=$list_pasien[$num]->gender?></td>
                     <td><?=$list_bmi[$num]->berat?></td>
